@@ -469,8 +469,8 @@ cd /data/InStock/instock/job/
 ------整体作业，支持批量作业------
 当前时间作业 python execute_daily_job.py
 单个时间作业 python execute_daily_job.py 2022-03-01
-枚举时间作业 python execute_daily_job.py 2022-01-01,2021-02-08,2022-03-12
-区间时间作业 python execute_daily_job.py 2022-01-01 2022-03-01
+枚举时间作业 python execute_daily_job.py 2020-01-01,2021-02-08,2025-03-12
+区间时间作业 python execute_daily_job.py 2020-01-01 2025-05-20
 ------单功能作业，支持批量作业，回测数据自动填补到当前
 综合选股作业 python selection_data_daily_job.py
 基础数据实时作业 python basic_data_daily_job.py
@@ -481,7 +481,7 @@ K线形态作业 python klinepattern_data_daily_job.py
 策略数据作业 python strategy_data_daily_job.py
 回测数据 python backtest_data_daily_job.py
 第一种方法：
-python execute_daily_job.py 2023-03-01,2023-03-02
+python execute_daily_job.py 2020-01-01,2025-05-20
 第二种方法：
 修改run_job.sh，然后运行 bash InStock/instock/bin/run_job.sh
 ```
